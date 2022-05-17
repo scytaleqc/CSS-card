@@ -11,7 +11,6 @@ body {
 
 
 .card {
-    display: block;
     background-color: white;
     max-width: 100%;
     border-radius: 0.5em;
@@ -20,55 +19,45 @@ body {
 
 
 img {
-    display: block;
-    float:none ;
-    overflow: hidden;
     border-radius: 0.5em 0.5em 0 0;
     max-width: 100%;
-    border: 0;
-    margin: 0;
-    object-fit: contain; 
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 
 button {
-    color: white;
     font-weight: 600;
     background-color: #3399ff;
-    border-color: #3399ff;
     border-radius: 0.5em;
     border: none;
-    box-shadow: none;
     width: 100%;
     padding: 1em 2em 1em;
-    margin: 0;
     transition: all 0.7s;
 }
 
 button:hover {
     background-color: #0066ff;
-    color: white;
 }
 
 
 ul {
     list-style-type: none;
-    float: inline-start;
     margin: 0;
     padding: 0;
 }
 
 
 li {
-    display: block;
-    margin: 0.3em;
+    margin: 0.3em 0 0.3em 0;
 }
 
 
 .wrap {
     padding: 1em;
-    margin-bottom: 1em;
-    text-align: start;
 }
 
 
@@ -79,6 +68,5 @@ li {
 
     li {
         display: inline-block;
-        margin: 0.1em;
     }
 }
